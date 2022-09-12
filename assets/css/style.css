@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -9,13 +9,11 @@ body {
 }
 
 /* Navbar */
-
-.navbg{
+.navbg {
   background-color: rgb(113, 163, 184);
 }
 
 /* Hero Section */
-
 #Hero-Section {
   background-image: url("../img/bg-header-2.jpg");
   background-repeat: no-repeat;
@@ -24,7 +22,6 @@ body {
 }
 
 /* Mis Libros */
-
 #mis-libros .image-top {
   height: 250px;
   background-repeat: no-repeat;
@@ -32,10 +29,17 @@ body {
   background-position: center;
 }
 
-/* Hobbies */
-
-#faves img{
+/* Favoritos */
+#faves img {
   width: 250px;
+}
+
+/* Venta */
+#venta .image-top {
+  width: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Contacto */
@@ -50,7 +54,7 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
 
